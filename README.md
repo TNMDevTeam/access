@@ -1,30 +1,48 @@
-<p align="center"><img src="https://raw.githubusercontent.com/discord/access/main/public/logo.png" width="350"></p>
+# Problem...
 
-# ACCESS
+Media is a collaborative effort. Secrecy between the people making that media come to life makes collaborating kiiinda difficult. But how can we be open without accidentally giving access to sensitive materials...?
 
-Meet Access, a centralized portal for employees to transparently discover, request, and manage their access for all internal systems needed to do their jobs. If you're interested in the project, come chat with us!
+# Solution!
 
-<p align="center"><a href="https://discord.gg/access-enjoyers"><img src="https://discordapp.com/api/guilds/1232815453907189922/widget.png?style=banner2" alt="Join our Discord!"></a></p>
+So we forked Access, a centralized portal by Discord. It allows people involved in a project - developers, journalists, even the general public if you so desire - to **transparently** discover, request, and manage their access to anything related to the project. Neat, right?
 
-## Purpose
+Oh yeah, there's a Discord. It's not _our_ Discord, but we planted Rare there to get the inside scoop on the vanilla flavor. Go say hi.
 
-The access service exists to help answer the following questions for each persona:
+<p align="center"><a href="https://discord.gg/access-enjoyers"><img src="https://discordapp.com/api/guilds/1232815453907189922/widget.png?style=banner2" alt="Join the Discord"></a></p>
 
-- All Users
+## Cool, but why _this?_
+
+The access service exists to help answer the following questions - not just for you, but for anyone that's curious:
+
+- Employees at a company
+  - What role(s) do I have?
   - What do I have access to?
-  - What does a teammate have access to that I don’t?
   - What groups and roles are available?
-  - Can I get access?
-- Team Leads
+    - What do they give access to?
+    - Can I get access to it if I need it?
+  - What does a teammate have access to that I don’t?
+- Team leads at a company
   - How do I give access to a new team member easily?
-  - How do I give temporary access to an individual for a cross-functional effort?
-  - Which roles do I administer?
+  - How do I give temporary access to someone for a cross-functional effort?
+  - Which roles do I administer, and to who?
+    - Wait hold on someone should've trained me on that
   - How can I create, merge, or split a role based on a team re-org?
-- Application Owners
-  - Who has access to my application?
-  - How do I setup access for a new application?
-  - How do I create a new access group for my application?
-  - How do I give a role access to one of my application's groups?
+- Journalists from reputable media
+  - What creators are working on this part of the project?
+  - What materials am I allowed to use in my reports?
+    - Can I get access to more materials if I need them?
+- The general public
+  - Who exactly is responsible for what? (note: the journalist already asked this)
+  - How many people are doing this specific thing?
+  - What all goes into a project of this scale?
+  - Why do I care?
+  - In fact, why am I still looking at this?
+  - I'm literally never going to implement this in real life...
+  - no but seriously why are you here you're just wasting your time
+
+---
+
+Note: Everything beyond this point is untouched. We're not going to require Okta since we want this to be _accessible,_ but we don't know of any FLOSS alternatives yet. We'll...get to it eventually.
 
 ## Development Setup
 
